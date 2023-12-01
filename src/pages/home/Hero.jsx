@@ -16,13 +16,17 @@ const Hero = () => {
             Created to change everything for the better. For everyone
           </span>
           <div className="mt-4 xs:text-center md:text-start">
-            <button className=" text-white text-[1rem] font-normal tracking-wider font-SFL px-10 py-2 ring-[1px] ring-greyText rounded-sm z-10 capitalize">
+            <button className=" text-white text-[14px] capitalize ring-[1.1px] font-normal tracking-wider font-SFL px-10 py-2 ring-greyText rounded-md z-10">
               show now
             </button>
           </div>
         </div>
         <div className="w-[406px] flex justify-end items-center px-10 ">
-          <img className=" w-full h-full xs:mt-20 md:-mb-28" src={Iphone} alt="" />
+          <img
+            className=" w-full h-full xs:mt-20 md:-mb-28"
+            src={Iphone}
+            alt=""
+          />
         </div>
       </div>
     </div>
