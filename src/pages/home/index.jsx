@@ -3,6 +3,7 @@ import Hero from "./Hero";
 // import Gadget from "./Gadget";
 import Categories from "./Categories";
 import PopularGadget from "./PopularGadget";
+import Products from "./Products";
 
 const index = () => {
   return (
@@ -10,6 +11,7 @@ const index = () => {
       <Hero />
       {/* <Gadget /> */}
       <Categories />
+      <Products/>
       <PopularGadget/>
     </div>
   );
